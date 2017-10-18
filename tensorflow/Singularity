@@ -1,4 +1,4 @@
-Bootstrap: dockeri
+Bootstrap: docker
 From: library/ubuntu:latest
 IncludeCmd: yes
 
