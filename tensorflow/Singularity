@@ -11,7 +11,7 @@ cp /gpfs/software/source/cudnn-8.0-linux-x64-v5.1.tgz $SINGULARITY_ROOTFS
     mkdir /gpfs
     # Update packagelist, etc
     apt-get -y update && apt-get -y upgrade
-    # Install some necessarily tools
+    # Install some necessary tools
     apt-get -y install vim python-dev python-pip wget
     # Fetch and install NVIDIA driver
     wget http://us.download.nvidia.com/XFree86/Linux-x86_64/375.26/NVIDIA-Linux-x86_64-375.26.run
